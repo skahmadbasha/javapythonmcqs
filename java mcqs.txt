@@ -1,0 +1,419 @@
+1. Who invented Java Programming?
+a) Guido van Rossum
+b) James Gosling
+c) Dennis Ritchie
+d) Bjarne Stroustrup
+
+2. Which statement is true about Java?
+a) Java is a sequence-dependent programming language
+b) Java is a code dependent programming language
+c) Java is a platform-dependent programming language
+d) Java is a platform-independent programming language
+
+3. Which component is used to compile, debug and execute the java programs?
+a) JRE
+b) JIT
+c) JDK
+d) JVM
+
+4. Which one of the following is not a Java feature?
+a) Object-oriented
+b) Use of pointers
+c) Portable
+d) Dynamic and Extensible
+
+5. Which of these cannot be used for a variable name in Java?
+a) identifier & keyword
+b) identifier
+c) keyword
+d) none of the mentioned
+
+6. What is the extension of java code files?
+a) .js
+b) .txt
+c) .class
+d) .java
+
+7. What will be the output of the following Java code?
+
+    class Basha {
+        public static void main(String args[]) 
+        {        
+             int a = 3;
+             System.out.print(++a * 8);
+        } 
+    }
+8. Which of the following is not an OOPS concept in Java?
+a) Polymorphism
+b) Inheritance
+c) Compilation
+d) Encapsulation
+
+9. What is not the use of “this” keyword in Java?
+a) Referring to the instance variable when a local variable has the same name
+b) Passing itself to the method of the same class
+c) Passing itself to another method
+d) Calling another constructor in constructor chaining
+
+10. Which of the following is a type of polymorphism in Java Programming?
+a) Multiple polymorphism
+b) Compile time polymorphism
+c) Multilevel polymorphism
+d) Execution time polymorphism
+
+11. What is the extension of compiled java classes?
+a) .txt
+b) .js
+c) .class
+d) .java
+
+12. Which exception is thrown when java is out of memory?
+a) MemoryError
+b) OutOfMemoryError
+c) MemoryOutOfBoundsException
+d) MemoryFullException
+
+13. Which of these are selection statements in Java?
+a) break
+b) continue
+c) for()
+d) if()
+
+14. Which of these keywords is used to define interfaces in Java?
+a) intf
+b) Intf
+c) interface
+d) Interface
+
+15. Which of the following is a superclass of every class in Java?
+a) ArrayList
+b) Abstract class
+c) Object class
+d) String
+
+16. Which of these packages contains the exception Stack Overflow in Java?
+a) java.io
+b) java.system
+c) java.lang
+d) java.util
+
+17. Which of these statements is incorrect about Thread?
+a) start() method is used to begin execution of the thread
+b) run() method is used to begin execution of a thread before start() method in special cases
+c) A thread can be formed by implementing Runnable interface only
+d) A thread can be formed by a class that extends Thread class
+
+
+18. Which of these keywords are used for the block to be examined for exceptions?
+a) check
+b) throw
+c) catch
+d) try
+
+19. Which one of the following is not an access modifier?
+a) Protected
+b) Void
+c) Public
+d) Private
+
+20. What is the numerical range of a char data type in Java?
+a) 0 to 256
+b) -128 to 127
+c) 0 to 65535
+d) 0 to 32767
+
+21. Which of this keyword can be used in a subclass to call the constructor of superclass?
+a) super
+b) this
+c) extent
+d) extends
+
+22. What is the process of defining a method in a subclass having same name & type signature as a method in its superclass?
+a) Method overloading
+b) Method overriding
+c) Method hiding
+d) None of the mentioned
+
+23. Which of these keywords can be used to prevent Method overriding?
+a) static
+b) constant
+c) protected
+d) final
+
+
+24. Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?
+a) super(void);
+b) superclass.();
+c) super.A();
+d) super();
+
+25. Which of these is supported by method overriding in Java?
+a) Abstraction
+b) Encapsulation
+c) Polymorphism
+d) None of the mentioned
+
+
+26. Which of these keywords are used to define an abstract class?
+a) abst
+b) abstract
+c) Abstract
+d) abstract class
+
+27. Which of these is not abstract?
+a) Thread
+b) AbstractList
+c) List
+d) None of the Mentioned
+
+
+28. If a class inheriting an abstract class does not define all of its function then it will be known as?
+a) Abstract
+b) A simple class
+c) Static class
+d) None of the mentioned
+
+29. Which of this keyword must be used to inherit a class?
+a) super
+b) this
+c) extent
+d) extends
+
+
+30. A class member declared protected becomes a member of subclass of which type?
+a) public member
+b) private member
+c) protected member
+d) static member
+
+31. Which of these is correct way of inheriting class A by class B?
+a) class B + class A {}
+b) class B inherits class A {}
+c) class B extends A {}
+d) class B extends class A {}
+
+32. What is not type of inheritance?
+a) Single inheritance
+b) Double inheritance
+c) Hierarchical inheritance
+d) Multiple inheritance
+
+33. Using which of the following, multiple inheritance in Java can be implemented?
+a) Interfaces
+b) Multithreading
+c) Protected methods
+d) Private methods
+
+34. All classes in Java are inherited from which class?
+a) java.lang.class
+b) java.class.inherited
+c) java.class.object
+d) java.lang.Object
+
+35. Which of these class is superclass of String and StringBuffer class?
+a) java.util
+b) java.lang
+c) ArrayList
+d) None of the mentioned
+
+36. Which of these operators can be used to concatenate two or more String objects?
+a) +
+b) +=
+c) &
+d) ||
+
+37. Which of this method of class String is used to obtain a length of String object?
+a) get()
+b) Sizeof()
+c) lengthof()
+d) length()
+
+38. When does Exceptions in Java arises in code sequence?
+a) Run Time
+b) Compilation Time
+c) Can Occur Any Time
+d) None of the mentioned
+
+39. Which of these keywords is not a part of exception handling?
+a) try
+b) finally
+c) thrown
+d) catch
+
+40. Which of these keywords must be used to monitor for exceptions?
+a) try
+b) finally
+c) throw
+d) catch
+
+41. Which of these keywords must be used to handle the exception thrown by try block in some rational manner?
+a) try
+b) finally
+c) throw
+d) catch
+
+42. Which of these keywords is used to manually throw an exception?
+a) try
+b) finally
+c) throw
+d) catch
+
+43 class exception_handling 
+    {
+        public static void main(String args[]) 
+        {
+            try 
+           {
+                int a, b;
+                b = 0;
+                a = 5 / b;
+                System.out.print("A");
+            }
+            catch(ArithmeticException e) 
+            {
+        	System.out.print("B");        	
+            }
+        }
+    }
+ANS:B
+
+44. Which of the following classes can catch all exceptions which cannot be caught?
+a) RuntimeException
+b) Error
+c) Exception
+d) ParentException
+
+
+45. Which of the following is a super class of all exception type classes?
+a) Catchable
+b) RuntimeExceptions
+c) String
+d) Throwable
+
+
+46. Which of the following operators is used to generate instance of an exception which can be thrown using throw?
+a) thrown
+b) alloc
+c) malloc
+d) new
+
+47. Which of the following keyword is used by calling function to handle exception thrown by called function?
+a) throws
+b) throw
+c) try
+d) catch
+
+48. Which part of code gets executed whether exception is caught or not?
+a) finally
+b) try
+c) catch
+d) throw
+
+49. Which of the following handles the exception when a catch is not used?
+a) finally
+b) throw handler
+c) default handler
+d) java run time system
+
+50. At runtime, error is recoverable.
+a) True
+b) False
+
+51. Which of the following should be true of the object thrown by a thrown statement?
+a) Should be assignable to String type
+b) Should be assignable to Exception type
+c) Should be assignable to Throwable type
+d) Should be assignable to Error type
+
+52. Which of the following contains both date and time?
+a) java.io.date
+b) java.sql.date
+c) java.util.date
+d) java.util.dateTime
+
+53. Which of the following is advantage of using JDBC connection pool?
+a) Slow performance
+b) Using more memory
+c) Using less memory
+d) Better performance
+
+54. Which of these keywords is used to define packages in Java?
+a) pkg
+b) Pkg
+c) package
+d) Package
+
+
+55. Which of these is a mechanism for naming and visibility control of a class and its content?
+a) Object
+b) Packages
+c) Interfaces
+d) None of the Mentioned.
+
+56. Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package?
+a) Public
+b) Protected
+c) No Modifier
+d) All of the mentioned
+
+57. Which of these keywords is used to define interfaces in Java?
+a) interface
+b) Interface
+c) intf
+d) Intf
+
+58. Which of these can be used to fully abstract a class from its implementation?
+a) Objects
+b) Packages
+c) Interfaces
+d) None of the Mentioned
+
+59. Which of these access specifiers can be used for an interface?
+a) Public
+b) Protected
+c) private
+d) All of the mentioned
+
+60. Which of these keywords is used by a class to use an interface defined previously?
+a) import
+b) Import
+c) implements
+d) Implements
+
+61. Which of the following is the correct way of implementing an interface salary by class manager?
+a) class manager extends salary {}
+b) class manager implements salary {}
+c) class manager imports salary {}
+d) none of the mentioned
+
+62. Which of these class can generate an array which can increase and decrease in size automatically?
+a) ArrayList()
+b) DynamicList()
+c) LinkedList()
+d) MallocList()
+
+63. Which of these standard collection classes implements a dynamic array?
+a) AbstractList
+b) LinkedList
+c) ArrayList
+d) AbstractSet
+
+64. Do we have get(Object o) method in HashSet.
+a) True
+b) False
+
+65. What is the relation between hashset and hashmap?
+a) HashSet internally implements HashMap
+b) HashMap internally implements HashSet
+c) HashMap is the interface; HashSet is the concrete class
+d) HashSet is the interface; HashMap is the concrete class
+
+
+
+
+
+
+
+
+
+

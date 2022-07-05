@@ -1,0 +1,369 @@
+1. Who developed Python Programming Language?
+a) Wick van Rossum
+b) Rasmus Lerdorf
+c) Guido van Rossum
+d) Niene Stom
+
+
+2. Which type of Programming does Python support?
+a) object-oriented programming
+b) structured programming
+c) functional programming
+d) all of the mentioned
+
+3. Is Python case sensitive when dealing with identifiers?
+a) no
+b) yes
+c) machine dependent
+d) none of the mentioned
+
+4. Which of the following is the correct extension of the Python file?
+a) .python
+b) .pl
+c) .py
+d) .p
+
+5. Is Python code compiled or interpreted?
+a) Python code is both compiled and interpreted
+b) Python code is neither compiled nor interpreted
+c) Python code is only compiled
+d) Python code is only interpreted
+
+6. Which of the following is used to define a block of code in Python language?
+a) Indentation
+b) Key
+c) Brackets
+d) All of the mentioned
+7. Which keyword is used for function in Python language?
+a) Function
+b) Def
+c) Fun
+d) Define
+
+8. Which of the following character is used to give single-line comments in Python?
+a) //
+b) #
+c) !
+d) /*
+
+9. Which of the following functions is a built-in function in python?
+a) factorial()
+b) print()
+c) seed()
+d) sqrt()
+
+10. Which of the following is not a core data type in Python programming?
+a) Tuples
+b) Lists
+c) Class
+d) Dictionary
+
+11. Which of the following statements is used to create an empty set in Python?
+a) ( )
+b) [ ]
+c) { }
+d) set()
+
+12. To add a new element to a list we use which Python command?
+a) list1.addEnd(5)
+b) list1.addLast(5)
+c) list1.append(5)
+d) list1.add(5)
+
+13. What will be the output of the following Python code?
+
+>>>list1 = [1, 3]
+>>>list2 = list1
+>>>list1[0] = 4
+>>>print(list2)
+a) [1, 4]
+b) [1, 3, 4]
+c) [4, 3]
+d) [1, 3]
+
+14. Which of the following is a Python tuple?
+a) {1, 2, 3}
+b) {}
+c) [1, 2, 3]
+d) (1, 2, 3)
+
+15. How many except statements can a try-except block have?
+a) zero
+b) one
+c) more than one
+d) more than zero
+
+16. When will the else part of try-except-else be executed?
+a) always
+b) when an exception occurs
+c) when no exception occurs
+d) when an exception occurs in to except block
+
+17. When is the finally block executed?
+a) when there is no exception
+b) when there is an exception
+c) only if some condition that has been specified is satisfied
+d) always
+
+18. Which of the following statements is wrong about inheritance?
+a) Protected members of a class can be inherited
+b) The inheriting class is called a subclass
+c) Private members of a class can be inherited and accessed
+d) Inheritance is one of the features of OOP
+
+19. Which of the following is not a type of inheritance?
+a) Double-level
+b) Multi-level
+c) Single-level
+d) Multiple
+
+20. Which of the following best describes inheritance?
+a) Ability of a class to derive members of another class as a part of its own definition
+b) Means of bundling instance variables and methods in order to restrict access to certain class members
+c) Focuses on variables and passing of variables to functions
+d) Allows for implementation of elegant software that is well designed and easily modified
+
+21. Which of the following best describes polymorphism?
+a) Ability of a class to derive members of another class as a part of its own definition
+b) Means of bundling instance variables and methods in order to restrict access to certain class members
+c) Focuses on variables and passing of variables to functions
+d) Allows for objects of different types and behaviour to be treated as the same general type
+
+22. Which of these is not a fundamental features of OOP?
+a) Encapsulation
+b) Inheritance
+c) Instantiation
+d) Polymorphism
+
+23. Which of the following is the most suitable definition for encapsulation?
+a) Ability of a class to derive members of another class as a part of its own definition
+b) Means of bundling instance variables and methods in order to restrict access to certain class members
+c) Focuses on variables and passing of variables to functions
+d) Allows for implementation of elegant software that is well designed and easily modified
+
+
+24. To open a file c:\scores.txt for reading, we use _____________
+a) infile = open(“c:\scores.txt”, “r”)
+b) infile = open(“c:\\scores.txt”, “r”)
+c) infile = open(file = “c:\scores.txt”, “r”)
+d) infile = open(file = “c:\\scores.txt”, “r”)
+
+25. To open a file c:\scores.txt for writing, we use ____________
+a) outfile = open(“c:\scores.txt”, “w”)
+b) outfile = open(“c:\\scores.txt”, “w”)
+c) outfile = open(file = “c:\scores.txt”, “w”)
+d) outfile = open(file = “c:\\scores.txt”, “w”)
+
+26. To open a file c:\scores.txt for appending data, we use ____________
+a) outfile = open(“c:\\scores.txt”, “a”)
+b) outfile = open(“c:\\scores.txt”, “rw”)
+c) outfile = open(file = “c:\scores.txt”, “w”)
+d) outfile = open(file = “c:\\scores.txt”, “w”)
+
+27. Which of these definitions correctly describes a module?
+a) Denoted by triple quotes for providing the specification of certain program elements
+b) Design and implementation of specific functionality to be incorporated into a program
+c) Defines the specification of how it is to be used
+d) Any program that reuses code
+
+28. Which of the following is not an advantage of using modules?
+a) Provides a means of reuse of program code
+b) Provides a means of dividing up tasks
+c) Provides a means of reducing the size of the program
+d) Provides a means of testing individual parts of the program
+
+29. Which of the following is false about “import modulename” form of import?
+a) The namespace of imported module becomes part of importing module
+b) This form of import prevents name clash
+c) The namespace of imported module becomes available to importing module
+d) The identifiers in module are accessed as: modulename.identifier
+
+30. What will be the output of the following Python code?
+
+import datetime
+d=datetime.date(2016,7,24)
+print(d)
+a) Error
+b) 2017-07-24
+c) 2017-7-24
+d) 24-7-2017
+
+31. What will be the output of the following Python code if the system date is 18th August, 2016?
+
+tday=datetime.date.today()
+print(tday.month())
+a) August
+b) Aug
+c) 08
+d) 8
+
+32. Which of the following statements create a dictionary?
+a) d = {}
+b) d = {“john”:40, “peter”:45}
+c) d = {40:”john”, 45:”peter”}
+d) All of the mentioned
+
+33. What will be the output of the following Python code snippet?
+
+d = {"john":40, "peter":45}
+a) “john”, 40, 45, and “peter”
+b) “john” and “peter”
+c) 40 and 45
+d) d = (40:”john”, 45:”peter”)
+34. Suppose d = {“john”:40, “peter”:45}. To obtain the number of entries in dictionary which command do we use?
+a) d.size()
+b) len(d)
+c) size(d)
+d) d.len()
+
+35. Which of the following is a Python tuple?
+a) [1, 2, 3]
+b) (1, 2, 3)
+c) {1, 2, 3}
+d) {}
+36. Is the following Python code valid?
+
+>>> a,b,c=1,2,3
+>>> a,b,c
+a) Yes, [1,2,3] is printed
+b) No, invalid syntax
+c) Yes, (1,2,3) is printed
+d) 1 is printed
+
+37. What will be the output of the following Python code?
+
+>>> a=(1,2)
+>>> b=(3,4)
+>>> c=a+b
+>>> c
+a) (4,6)
+b) (1,2,3,4)
+c) Error as tuples are immutable
+d) None
+
+38. What will be the output of the following Python code?
+
+>>> a=(2,3,1,5)
+>>> a.sort()
+>>> a
+a) (1,2,3,5)
+b) (2,3,1,5)
+c) None
+d) Error, tuple has no attribute sort
+
+39. What will be the output of the following Python code?
+
+i = 1
+while True:
+    if i%0O7 == 0:
+        break
+    print(i)
+    i += 1
+a) 1 2 3 4 5 6
+b) 1 2 3 4 5 6 7
+c) error
+d) none of the mentioned
+
+40. Is Python case sensitive when dealing with identifiers?
+a) yes
+b) no
+c) machine dependent
+d) none of the mentione
+
+41. Which of the following is the use of function in python?
+a) Functions are reusable pieces of programs
+b) Functions don’t provide better modularity for your application
+c) you can’t also create your own functions
+d) All of the mentioned
+
+42. Which keyword is used for function?
+a) Fun
+b) Define
+c) Def
+d) Function
+
+43. What will be the output of the following Python code?
+
+def printMax(a, b):
+    if a > b:
+        print(a, 'is maximum')
+    elif a == b:
+        print(a, 'is equal to', b)
+    else:
+        print(b, 'is maximum')
+printMax(3, 4)
+a) 3
+b) 4
+c) 4 is maximum
+d) None of the mentioned
+
+44. Which are the advantages of functions in python?
+a) Reducing duplication of code
+b) Decomposing complex problems into simpler pieces
+c) Improving clarity of the code
+d) All of the mentioned
+
+45. Where is function defined?
+a) Module
+b) Class
+c) Another function
+d) All of the mentioned
+
+46. _____ is used to create an object.
+a) class
+b) constructor
+c) User-defined functions
+d) In-built functions
+
+47. _____ represents an entity in the real world with its identity and behaviour.
+a) A method
+b) An object
+c) A class
+d) An operator
+
+48. What will be the output of the following Python code?
+class test:
+     def __init__(self,a="Hello World"):
+         self.a=a
+ 
+     def display(self):
+         print(self.a)
+obj=test()
+obj.display()
+a) The program has an error because constructor can’t have default arguments
+b) Nothing is displayed
+c) “Hello World” is displayed
+d) The program has an error display function doesn’t have parameters
+
+49. What will be the output of the following Python code?
+
+class change:
+    def __init__(self, x, y, z):
+        self.a = x + y + z
+ 
+x = change(1,2,3)
+y = getattr(x, 'a')
+setattr(x, 'a', y+1)
+print(x.a)
+a) 6
+b) 7
+c) Error
+d) 0
+
+50. What will be the output of the following Python code?
+
+ class test:
+     def __init__(self,a):
+         self.a=a
+ 
+     def display(self):
+         print(self.a)
+obj=test()
+obj.display()
+a) Runs normally, doesn’t display anything
+b) Displays 0, which is the automatic default value
+c) Error as one argument is required while creating the object
+d) Error as display function requires additional argument
+
+
+
